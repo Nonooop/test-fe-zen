@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .header,
+  .navigation,
+  .sidebar,
+  .footer {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: orange;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* tema */
+  .light {
+    --background-color: #f0f0f0; /* Warna latar belakang tema terang */
+    --text-color: #333; /* Warna teks tema terang */
   }
-}
+  
+  .dark {
+    --background-color: #333; /* Warna latar belakang tema gelap */
+    --text-color: #f0f0f0; /* Warna teks tema gelap */
+  }
+  
+  /* layout tabel */
+  .main-content {
+    flex: 1;
+    overflow: auto;
+    background-color: var(--background-color); /* Menggunakan warna latar belakang sesuai tema */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--background-color); /* Menggunakan warna latar belakang sesuai tema */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: var(--text-color); /* Menggunakan warna teks sesuai tema */
+  }
+  
+  .table th {
+    background-color: var(--background-color); /* Warna latar belakang header kolom tabel */
+    cursor: pointer;
+  }
+  
+  .table tbody .odd {
+    background-color: #adadad; /* Warna latar belakang baris ganjil */
+  }
+  
+  /* tombol tema */
+  .theme-button {
+    background-color: var(--background-color);
+    color: orange;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    
+  }
+  
