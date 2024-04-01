@@ -1,0 +1,41 @@
+membangun sebuah platform e-commerce sederhana yang memiliki fitur dasar untuk menampilkan produk, menambahkan produk ke keranjang belanja, dan menyelesaikan pembayaran.
+
+Spesifikasi Proyek:
+1. Halaman Beranda:
+
+	- Halaman beranda harus menampilkan beberapa produk dengan gambar, nama, dan harga.
+	- Pengguna harus bisa mengklik produk untuk melihat detailnya.
+2. Halaman Detail Produk:
+
+	- Halaman detail produk harus menampilkan gambar produk, nama, deskripsi, harga, dan tombol 	- untuk menambahkan produk ke keranjang belanja.
+	- Pengguna harus bisa kembali ke halaman beranda dari halaman detail produk.
+3. Keranjang Belanja:
+
+	- Pengguna harus bisa melihat daftar produk yang telah mereka tambahkan ke keranjang belanja.
+	- Setiap produk dalam keranjang belanja harus menampilkan gambar, nama, harga, jumlah, dan total harga.
+	- Pengguna harus bisa menghapus produk dari keranjang belanja atau mengubah jumlahnya.
+4 Proses Pembayaran:
+
+	- Pengguna harus bisa memasukkan informasi pembayaran seperti alamat pengiriman dan metode pembayaran.
+	- Setelah pembayaran selesai, pengguna harus mendapatkan konfirmasi pembelian.
+4. Responsif:
+	- Pastikan platform e-commerce tersebut responsif dan dapat diakses dengan baik di berbagai perangkat, termasuk desktop, tablet, dan smartphone.
+	
+5.Teknologi yang Diharapkan:
+	- HTML, CSS, JavaScript
+	- Framework atau library frontend seperti React, Vue.js, atau Angular (opsional)
+	- Penggunaan API untuk mendapatkan dan menyimpan data produk (opsional)
+	- Penggunaan manajemen state seperti Redux (opsional)
+	- Penggunaan alat-alat pengembangan seperti Git untuk version control dan Webpack untuk bundling (opsional)
+
+Catatan Tambahan:
+
+- Desain antarmuka tidak harus rumit, yang terpenting adalah fungsionalitasnya.
+- Anda tidak perlu membuat backend untuk proyek ini, Anda dapat menggunakan data statis atau API publik untuk mendapatkan data produk.
+- Proyek dapat dikerjakan secara bertahap, dengan fokus pada satu fitur atau halaman pada satu waktu.
+
+Pertanyaan Tambahan:
+- Jelaskan pendekatan Anda dalam merencanakan dan mengimplementasikan proyek ini.
+- Bagaimana Anda akan mengatur struktur direktori dan file untuk proyek ini?
+- Bagaimana Anda akan mengelola state aplikasi, terutama dalam hal menangani data produk dan keranjang belanja?
+- Apa yang akan Anda lakukan jika Anda menemui masalah atau hambatan dalam mengembangkan proyek ini?
